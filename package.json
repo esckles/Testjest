@@ -1,0 +1,36 @@
+{
+  "name": "practicetest",
+  "version": "1.0.0",
+  "description": "this is a simple test project",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "ts-node-dev --respawn main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com"
+  },
+  "keywords": [
+    "test",
+    "jest",
+    "nodejs"
+  ],
+  "author": "Peter Oti",
+  "license": "MIT",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jest": "^29.7.0",
+    "mongoose": "^8.7.3",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2"
+  }
+}
